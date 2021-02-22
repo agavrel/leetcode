@@ -11,6 +11,11 @@ Algorithms will be divided in the following categories, with between brackets th
 * String (easy to medium)
 * [Dynamic Programming](https://en.wikipedia.org/wiki/Dynamic_programming) (medium to hard)
 
+Could originally speed up with:
+```cpp
+static int lambda_0 = []() { std::ios::sync_with_stdio(false); cin.tie(NULL); return 0; }();
+```
+
 <a href="https://www.youtube.com/watch?v=fp2psphgAK4
 " target="_blank"><img src="http://img.youtube.com/vi/fp2psphgAK4/0.jpg"
 alt="Anri Timely on youtube" width="240" height="180" border="10" /></a>
