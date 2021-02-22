@@ -1,0 +1,1 @@
+g++ solution.cpp test.cpp && ./a.out && rm a.out
