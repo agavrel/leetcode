@@ -8,12 +8,6 @@
 
 using namespace std;
 
-string toString(vector <int> v) {
-    stringstream ss;
-    copy(v.begin(), v.end(), ostream_iterator<int>(ss, " "));
-    return ss.str();
-}
-
 int main(void) {
     vector<vector<int>> nums = {{1,2,3}, {-5,-3,-3,-2,7,1}};
     vector<vector<int>> multipliers {{3,2,1},{-10,-5,3,4,6}};
