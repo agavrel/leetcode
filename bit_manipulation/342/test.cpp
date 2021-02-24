@@ -6,6 +6,7 @@
 #include "solution.cpp"
 #include <sstream>
 #include <cstdint>
+#include <stdbool.h>
 
 #define bool char
 
@@ -18,8 +19,8 @@ const char *toString(vector <int> v) {
 }
 
 int main(void) {
-    vector<int> nums = {1, 16, 3, 4, 5};
-    vector<bool> expected = {true, true, false, true, false}; // cannot use bool for printf
+    vector<int> nums = {16, 5, 1};
+    vector<bool> expected = {true, false, true}; // cannot use bool for printf
     // See: https://en.wikipedia.org/w/index.php?title=Sequence_container_(C%2B%2B)&oldid=767869909#Specialization_for_bool
 
     for (int i = 0; i < expected.size(); i++) {

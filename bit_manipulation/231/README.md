@@ -7,14 +7,12 @@ Example 1:
 ```
 Input: n = 1
 Output: true
-Explanation: 20 = 1
 ```
 
 Example 2:
 ```
 Input: n = 16
 Output: true
-Explanation: 24 = 16
 ```
 
 Example 3:
@@ -36,6 +34,6 @@ Output: false
 ```
 
 Constraints:
-* The input must be a *binary string* of length ```32```
+* ```-2³¹  <= n <= 2³¹ - 1```
 
 *Follow up:* If this function is called many times, how would you optimize it?
