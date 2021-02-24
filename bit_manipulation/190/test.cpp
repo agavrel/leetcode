@@ -5,6 +5,7 @@
 #include <iterator>
 #include "solution.cpp"
 #include <sstream>
+#include <cstdint>
 
 using namespace std;
 
@@ -15,13 +16,13 @@ const char *toString(vector <int> v) {
 }
 
 int main(void) {
-    vector<vector<int>> nums = {{3,2,3}, {2,2,1,1,1,2,2}};
-    vector<int> expected = {3, 2};
+    vector<uint32_t> nums = {0b00000010100101000001111010011100, 0b11111111111111111111111111111101};
+    vector<uint32_t> expected = {0b00111001011110000010100101000000, 0b10111111111111111111111111111111};
 
     for (int i = 0; i < expected.size(); i++) {
         clock_t start = clock();
         Solution s;
-        int res = s(nums[i]);
+        uint32_t res = s(nums[i]);
         double elapsedTime = (clock() - start);
 
         printf("%s  \033[30m(%4.0lf cycles)\033[0m\t %d -> %d\n", (expected[i] == res) ? "\033[34mOK" : "\033[31mKO", elapsedTime, res, expected[i]);

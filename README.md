@@ -10,6 +10,8 @@ Algorithms will be divided in the following categories, with between brackets th
 * Vector (easy to medium)
 * String (easy to medium)
 * [Dynamic Programming](https://en.wikipedia.org/wiki/Dynamic_programming) (medium to hard)
+* Subarray (medium to hard)
+* Bit Manipulation (easy to hard)
 
 Could originally speed up with:
 ```cpp
