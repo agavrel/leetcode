@@ -13,19 +13,23 @@ Algorithms will be divided in the following categories, with between brackets th
 * Subarray (medium to hard)
 * Bit Manipulation (easy to hard)
 
-could originally speed up with:
+Can speed up with:
 ```cpp
-static int lambda_0 = []() { std::ios::sync_with_stdio(false); cin.tie(null); return 0; }();
+static int lambda_0 = []() { std::ios::sync_with_stdio(false); cin.tie(NULL); return 0; }();
 ```
 
-nb: (for myself) to write an ```n``` superscript digit (power of) use following unicode:
-```
-ctrl+shift+u and then if n = 3 'b3', if n = 2 'b2', if n = 1 'b9'
-ctrl+shift+u and then '2' '0' '7' and ending with n for other digits
-```
+![fast](fast.png?raw=true)
+
+
 
 ### Anri ~ Timely
 
 <a href="https://www.youtube.com/watch?v=fp2psphgak4
 " target="_blank"><img src="http://img.youtube.com/vi/fp2psphgak4/0.jpg"
 alt="anri timely on youtube" width="240" height="180" border="10" /></a>
+
+NB: (for myself) to write an ```n``` superscript digit (power of) use following unicode:
+```
+ctrl+shift+u and then if n = 3 'b3', if n = 2 'b2', if n = 1 'b9'
+ctrl+shift+u and then '2' '0' '7' and ending with n for other digits
+```
