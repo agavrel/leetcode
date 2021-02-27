@@ -1,5 +1,13 @@
 # [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
 
+### Prototype
+
+```cpp
+uint32_t operator()(uint32_t nums)
+```
+
+### Problem
+
 Write a function that takes an unsigned integer and returns the number of '1' bits it has (also known as the ```Hamming weight```).
 
 Example 1:

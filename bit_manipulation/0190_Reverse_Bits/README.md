@@ -1,5 +1,13 @@
 # [Reverse Bits](https://leetcode.com/problems/reverse-bits/)
 
+### Prototype
+
+```cpp
+uint32_t reverseBits(uint32_t n)
+```
+
+### Problem
+
 Reverse bits of a given 32 bits unsigned integer.
 
 *Follow up:* If this function is called many times, how would you optimize it?

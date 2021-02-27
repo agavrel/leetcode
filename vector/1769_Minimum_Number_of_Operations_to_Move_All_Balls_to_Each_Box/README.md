@@ -1,5 +1,13 @@
 # [Minimum Number of Operations to Move All Balls to Each Box](https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/)
 
+### Prototype
+
+```cpp
+vector<int> minOperations(string boxes)
+```
+
+### Problem
+
 You have n boxes. You are given a binary string ```boxes``` of length ```n```, where ```boxes[i]``` is ```'0'``` if the ```iᵗʰ box``` is *empty*, and ```'1'``` if it contains *one* ball.
 
 In one operation, you can move *one* ball from a box to an adjacent box. Box ```i``` is adjacent to box ```j``` if ```abs(i - j) == 1```. Note that after doing so, there may be more than one ball in some boxes.

@@ -1,5 +1,13 @@
 # [Maximum Score from Performing Multiplication Operations](https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/)
 
+### Prototype
+
+```cpp
+int maximumScore(vector<int>& nums, vector<int>& M)
+```
+
+### Problem
+
 You are given two integer arrays ```nums``` and ```multipliers``` of size ```n``` and ```m``` respectively, where ```n >= m```. The arrays are *1-indexed*.
 
 You begin with a score of ```0```. You want to perform *exactly* m operations. On the ```iᵗʰ``` operation *(1-indexed)*, you will:

@@ -1,5 +1,13 @@
 # [Hamming Distance](https://leetcode.com/problems/hamming-distance/)
 
+### Prototype
+
+```cpp
+int hammingDistance(int x, int y)
+```
+
+### Problem
+
 The [Hamming distance](https://en.wikipedia.org/wiki/Hamming_distance) between two integers is the number of positions at which the corresponding bits are different.
 
 Given two integers `x` and `y`, calculate the Hamming distance.
