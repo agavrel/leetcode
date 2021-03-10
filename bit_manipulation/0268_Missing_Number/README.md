@@ -1,4 +1,4 @@
-# [Counting Bits](https://leetcode.com/problems/counting-bits/)
+# [Counting Bits](https://leetcode.com/problems/missing-number/)
 
 ### Prototype
 
