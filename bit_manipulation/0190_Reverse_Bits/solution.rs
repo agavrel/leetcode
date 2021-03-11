@@ -1,4 +1,4 @@
-/**
+/*
 
     let mut table = [0u32; SIZE];
      table = set_table(table, 0);
@@ -8,7 +8,7 @@
                 println!("");
             }
       }
-**/
+*/
 impl Solution {
     pub const fn reverse_bits(x: u32) -> u32 {
     const table: [u32; 256] = [0, 128, 64, 192, 32, 160, 96, 224, 16, 144, 80, 208, 48, 176, 112, 240,

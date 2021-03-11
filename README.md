@@ -33,8 +33,11 @@ void makeHash(int &hash, int letter) {
 
 I always try to coin the most **elegant** algorithms, with a runtime that will most of the time **be faster than best solutions**, while not giving up on memory usage.
 
-![fast](fast.png?raw=true)
+![fast C++](fast.png?raw=true)
 
+Recently I have switched to Rust and enjoyed it as it constantly beats C++ when it comes to runtime and memory (same algorithm as above:)
+
+![fast Rust](fastRust.png?raw=true)
 
 ### Anri ~ Timely
 
