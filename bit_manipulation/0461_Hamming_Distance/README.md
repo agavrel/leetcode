@@ -2,8 +2,16 @@
 
 ### Prototype
 
+#### C++
+
 ```cpp
 int hammingDistance(int x, int y)
+```
+
+#### Rust
+
+```rs
+pub fn hamming_distance(x: i32, y: i32) -> i32
 ```
 
 ### Problem

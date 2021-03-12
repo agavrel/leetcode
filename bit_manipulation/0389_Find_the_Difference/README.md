@@ -2,8 +2,16 @@
 
 ### Prototype
 
+#### C++
+
 ```cpp
 char findTheDifference(string s, string t)
+```
+
+#### Rust
+
+```rs
+pub fn find_the_difference(s: String, t: String) -> char
 ```
 
 ### Problem

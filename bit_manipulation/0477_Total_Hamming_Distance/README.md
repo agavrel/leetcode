@@ -2,9 +2,18 @@
 
 ### Prototype
 
+#### C++
+
 ```cpp
 int totalHammingDistance(vector<int>& nums)
 ```
+
+#### Rust
+
+```rs
+pub fn total_hamming_distance(nums: Vec<i32>) -> i32
+```
+
 
 ### Problem
 
