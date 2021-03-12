@@ -2,8 +2,16 @@
 
 ### Prototype
 
+#### C++
+
 ```cpp
 bool isPowerOfFour(int n)
+```
+
+#### Rust
+
+```rs
+pub fn is_power_of_four(n: i32) -> bool
 ```
 
 ### Problem

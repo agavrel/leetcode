@@ -2,8 +2,16 @@
 
 ### Prototype
 
+#### C++
+
 ```cpp
 int singleNumber(vector<int>& nums)
+```
+
+#### Rust
+
+```rs
+pub fn single_number(nums: Vec<i32>) -> i32
 ```
 
 ### Problem

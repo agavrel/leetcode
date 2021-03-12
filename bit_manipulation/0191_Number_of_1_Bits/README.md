@@ -2,8 +2,16 @@
 
 ### Prototype
 
+#### C++
+
 ```cpp
 uint32_t operator()(uint32_t nums)
+```
+
+#### Rust
+
+```rs
+pub fn hammingWeight (n: u32) -> i32
 ```
 
 ### Problem

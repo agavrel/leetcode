@@ -2,8 +2,16 @@
 
 ### Prototype
 
+#### C++
+
 ```cpp
 vector<string> findRepeatedDnaSequences(string s)
+```
+
+#### Rust
+
+```rs
+pub fn find_repeated_dna_sequences(s: String) -> Vec<String>
 ```
 
 ### Problem

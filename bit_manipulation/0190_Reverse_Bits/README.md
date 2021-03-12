@@ -2,8 +2,16 @@
 
 ### Prototype
 
+#### C++
+
 ```cpp
 uint32_t reverseBits(uint32_t n)
+```
+
+#### Rust
+
+```rs
+pub const fn reverse_bits(x: u32) -> u32
 ```
 
 ### Problem

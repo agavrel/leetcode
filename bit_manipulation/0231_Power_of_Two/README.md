@@ -2,8 +2,16 @@
 
 ### Prototype
 
+#### C++
+
 ```cpp
 bool isPowerOfTwo(int n)
+```
+
+#### Rust
+
+```rs
+pub fn is_power_of_two(n: i32) -> bool
 ```
 
 ### Problem

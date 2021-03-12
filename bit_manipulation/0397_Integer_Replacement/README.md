@@ -2,8 +2,16 @@
 
 ### Prototype
 
+#### C++
+
 ```cpp
 int integerReplacement(int n)
+```
+
+#### Rust
+
+```rs
+pub fn integer_replacement(mut n:i32) -> i32
 ```
 
 ### Problem
